@@ -1,0 +1,7 @@
+Hur man styr karaktären
+
+variabelnamn = pygame.key.get_pressed()
+if variabelnamn[pygame.K_a elr LEFT]
+elif variabelnamn[pygame.K_d elr RIGHT]
+elif variabelnamn[pygame.K_w elr UP]
+elif variabelnamn[pygame.K_s elr DOWN]
