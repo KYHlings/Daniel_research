@@ -1,7 +1,18 @@
 Hur man styr karaktären
 
 variabelnamn = pygame.key.get_pressed()
-if variabelnamn[pygame.K_a elr LEFT]
-elif variabelnamn[pygame.K_d elr RIGHT]
-elif variabelnamn[pygame.K_w elr UP]
-elif variabelnamn[pygame.K_s elr DOWN]
+if variabelnamn[pygame.K_a] or [pygame.K_LEFT]
+    x -= velocity
+elif variabelnamn[pygame.K_d] or [pygame.K_RIGHT]
+    x += velocity
+elif variabelnamn[pygame.K_w] or [pygame.K_UP]
+    y -= velocity
+elif variabelnamn[pygame.K_s] or [pygame.K_DOWN]
+    y += velocity
+x =
+y =
+width =
+height =
+velocity =
+
+pygame.draw.rect(win, (255,0,0), (x,y,width,height))
